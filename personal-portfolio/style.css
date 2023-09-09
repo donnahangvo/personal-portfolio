@@ -1,0 +1,116 @@
+/* * {
+    border: 1px solid red;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+} */
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(211, 122, 215);
+}
+
+.background{
+        z-index: -1;
+        height: 100px;
+}
+
+h1{
+    text-align: center;
+}
+
+ul.navbar {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 2px;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    background-color: rgb(224, 143, 163);
+    position: fixed;
+    top: 0px;
+    height: 60px;
+}
+
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.navbar-brand {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 5%;
+    font-size: larger;
+    margin-top: 20px;
+}
+
+ .navbar-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 50%;
+    height: 50%;
+} 
+
+.nav-item{
+    margin: 10px;
+    width: 30%;
+    height: 30%;
+    flex-direction: row;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(88, 0, 73);
+}
+
+a:hover{
+    color: rgb(176, 247, 253);
+}
+
+h2{
+    color: rgb(110, 6, 174);
+    font-size: xx-large;
+    text-align: center;
+}
+
+p{
+    font-size: larger;
+    color: rgb(218, 251, 254) ;
+    margin: 20px;
+} 
+
+.about-me{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 75%;
+    margin-left: 160px;
+}
+
+h2.about-me{
+    color: rgb(218, 251, 254);
+}
+
+ul.hobbies{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.tell-me{
+    text-align: center;
+    color: rgb(125, 4, 138) ;
+}
+
